@@ -1,0 +1,46 @@
+<!-- temprature converter  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-box">
+    <h1>Temperature Converter  🤒</h1>
+    <!--inputtemp -->
+    
+    <div class="container">
+        <div>
+        <label for="inputTemp">Enter temperature: ✏️</label>
+    <input type="number" id="inputTemp" placeholder="Enter temperature">
+    </div>
+    <select id="fromUnit">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select>
+    <span>to</span>
+    <select id="toUnit">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+    </select></div>
+
+    <div class="container">
+    <button onclick="convertTemperature()">Convert</button>
+    </div>
+    <div class="result">
+    <label for="outputTemp"> 😲Converted temperature:</label>
+    <input type="text" id="outputTemp" placeholder="Converted temperature" readonly>
+    </div>  
+    </div>
+    <footer>
+        <p>Developed by svlive❤️</p>
+
+    </footer>
+</body>
+    <script src="client.js"></script>

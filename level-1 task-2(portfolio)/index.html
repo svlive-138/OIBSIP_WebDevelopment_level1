@@ -1,0 +1,240 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shrey | Full-Stack Developer</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Shrey</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkToggle">🌙</button></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero glass">
+    <h1>Hi, I'm Shrey 👋</h1>
+    <h2><span id="typewriter"></span></h2>
+    <a href="#contact" class="btn">Let's Connect</a>
+  </section>
+
+  <section id="about" class="glass">
+    <h2>About Me</h2>
+    <p>I’m a full-stack dev with a passion for automation, UI polish, and hackathon domination. Currently building ParkWise+ 🚗📱</p>
+  </section>
+
+  <section id="projects" class="glass">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>ParkWise+</h3>
+        <p>Predictive parking app with ML, gamification, and seamless UX.</p>
+      </div>
+      <div class="card">
+        <h3>SocialSphere</h3>
+        <p>Responsive social app with animated hero and modular React components.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="glass">
+    <h2>Skills</h2>
+    <div class="skill-bar"><span>React</span><div class="bar" style="width: 90%"></div></div>
+    <div class="skill-bar"><span>Node.js</span><div class="bar" style="width: 85%"></div></div>
+    <div class="skill-bar"><span>MongoDB</span><div class="bar" style="width: 80%"></div></div>
+    <div class="skill-bar"><span>Python</span><div class="bar" style="width: 75%"></div></div>
+    <div class="skill-bar"><span>Selenium</span><div class="bar" style="width: 70%"></div></div>
+  </section>
+
+  <section id="contact" class="glass">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <a href="https://wa.me/918000000000?text=Hi%20Shrey%2C%20I%20saw%20your%20portfolio!" target="_blank" class="btn">WhatsApp Me</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Shrey. Built with ❤️ and caffeine.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrey - Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header  data-aos="zoom-in-down"class="hero">
+    <div class="container">
+      <img data-aos="fade-up" class="hero-photo" src="pf.jpg" alt="profile ">
+      <h1>Shrey Vyas</h1>
+     <p data-aos="fade-left"class="tagline typewriter">Web Developer • Creative Designer • CSS/HTML Enthusiast</p>
+
+      <a class="btn primary" href="#contact">Get in Touch</a>
+      <button id="darkToggle" class="btn toggle">🌙</button>
+    </div>
+  </header>
+
+  <nav data-aos="zoom-in"class="navbar">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+      </ul>
+      
+
+    </div>
+    
+  </nav>
+
+  <section data-aos="zoom-in"id="about" class="about section-padding">
+     
+    <div class="container ">
+      <h2>About Me</h2>
+     <div class="about-container">
+     <div data-aos="zoom-out-left" class="about-photo"><img src="about.png" alt="about me" class="about-photo"></div> 
+      <div data-aos="fade-up" data-aos-easing="300"  data-aos-duration="3000 " class="para"><p>Hi, I'm Shrey—a full-stack developer with a passion for building smart, scalable, and visually stunning web apps. Whether it's crafting responsive UIs in React, automating workflows with Python, or debugging the trickiest deployment bugs, I thrive on solving real-world problems with clean code and creative flair. From hackathons to production-ready projects, I bring persistence, polish, and a touch of Hinglish humor to everything I build.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-right" data-aos-duration="3000" id="skills" class="skills section-padding">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="carousel" id="skills-carousel">
+      <div class="carousel-track">
+        <div class="carousel-item">HTML5</div>
+        <div class="carousel-item">CSS3 / Responsive Design</div>
+        <div class="carousel-item">JavaScript</div>
+        <div class="carousel-item">Git & GitHub</div>
+        <div class="carousel-item">React</div>
+        <div class="carousel-item">Node.js</div>
+        <div class="carousel-item">MongoDB</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300" id="portfolio" class="portfolio section-padding">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div data-aos="flip-right" class="project">
+          <img src="omnifood.png" alt="food delivary">
+          <h3>food delivary web app "omnifood"</h3>
+          <p>it is a food delivery web app that allows users to order food from their favourite menu.
+            /Built with HTML, CSS, and JavaScript.
+          </p>
+          <a href="https://omni-foodlive.netlify.app/" class="btn secondary">View Live</a>
+          
+        </div>
+        
+               <div data-aos="flip-left" class="project">
+                <img src="weather.png" alt="Weather">
+                <h3>weather forcast</h3>
+                <p>it is a weather forcast web app that allows users to check weather of any city.
+                 it fetches data from open weather api.it shows temperature,humidity,and weather base background change.
+                 /Built with HTML, CSS, and JavaScript.
+                </p>
+                  <a href="https://weathersvlive.netlify.app/" class="btn secondary">View Live</a>
+          
+              </div>
+
+              <div data-aos="flip-left" class="project">
+                <img src="vartalapm.png" alt="Vartalapm">
+                <h3>Vartalapm AI Assistant</h3>
+                 <p>An AI-powered chatbot that provides instant responses and assistance using natural language processing.
+                 Built with HTML, CSS, JavaScript, and integrated with gemini's API.by default it response in sanskrit language but user can change it to any language hindi or english.
+                 <br />
+                 </p>
+               <a href="https://weathersvlive.netlify.app/" class="btn secondary">View Live</a>
+          
+              </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up" id="resume" class="resume section-padding">
+    
+    <div class="container resume-container">
+      <h2>Resume</h2>
+      
+      <p>Download my resume: <a data-aos="zoom-in" data-aos-duration="2000 " href="ffse.pdf" class="btn primary">Download PDF</a></p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-padding">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <a data-aos="flip-left"  data-aos-duration="1000" href="mailto:shreyvyas06@gmail.com" class="contact-card">
+        <img src="email.svg" alt="Email">
+        <span>shreyvyas06@gmail.com</span>
+      </a>
+      <a data-aos="flip-right"  data-aos-duration="1000"href="https://www.linkedin.com/in/yourprofile" target="_blank" class="contact-card">
+        <img src="linkedin.svg" alt="LinkedIn">
+        <span>linkedin.com/in/yourprofile</span>
+      </a>
+      <a data-aos="flip-up" data-aos-duration="1000" href="https://github.com/svlive-138" target="_blank" class="contact-card">
+        <img src="github.svg" alt="GitHub">
+        <span>github.com/svlive-138</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <div class="social-icons">
+  <a href="https://github.com/svlive-138" target="_blank" title="GitHub">
+    <img src="github.svg" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">
+    <img src="linkedin.svg" alt="LinkedIn">
+  </a>
+  <a href="mailto:shreyvyas06@gmail.com" title="Email">
+    <img src="email.svg" alt="Email">
+  </a>
+</div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 portfolio by svlive-138. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

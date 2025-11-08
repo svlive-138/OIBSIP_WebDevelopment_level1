@@ -20,6 +20,6 @@ function convertTemperature() {
         r =(inputTemp - 273.15) * 9/5 + 32 ;
         outputTemp = r ;
     }
-    document.getElementById('outputTemp').value = outputTemp.toFixed(2);
+    document.getElementById('outputTemp').value = outputTemp.toFixed(2) + '  ' + toUnit;
 
 }
